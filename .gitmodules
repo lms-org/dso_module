@@ -1,0 +1,6 @@
+[submodule "dso"]
+	path = dso
+	url = https://github.com/lms-org/dso
+[submodule "dso-1"]
+	path = dso-1
+	url = https://github.com/lms-org/dso-1
