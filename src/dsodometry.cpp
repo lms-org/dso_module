@@ -31,7 +31,6 @@ bool Dsodometry::initialize() {
     //TODO what to do as we get the image from the camera? fullSystem->setGammaFunction(reader->getPhotometricGamma());
     //add the IOWrapper
     fullSystem->outputWrapper.push_back(new dso::IOWrap::SampleOutputWrapper());
-
     if(!fullSystem->initFailed){
         logger.error("init")<<"fullSystem initFailed";
         return false;
